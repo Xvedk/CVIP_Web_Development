@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(45,153,255),rgb(30, 204, 181));
+}
+
+.container{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1.5rem;
+    color: black;
+    box-shadow: 0 0 0.35rem black;
+}
+.head h2{
+    font-family: 'Trebuchet MS';
+    margin-top: 1rem;
+    cursor: default;
+}
+.main{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem 0;
+    background-color: rgb(27, 27, 27);
+    border-radius: 1rem;
+}
+
+.in,.out{
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.limg{
+    width: 1.1rem;
+    z-index: 2;
+    margin-right: -1.7rem;
+}
+.out{
+    margin-bottom: -0.9rem;
+}
+#in,#out{
+    padding: 0.3rem;
+    padding-left: 2.2rem;
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 45%;
+    border: 0.01rem solid rgb(0, 114, 220);
+    outline: none;
+    border-radius: 0.5rem 0 0 0.5rem;
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+#in:focus{
+    border: solid 0.01rem rgb(47, 140, 227);
+    background-color: rgb(52, 52, 52);
+}
+button{
+    border-radius: 0 0.5rem 0.5rem 0;
+    width: 8%;
+    font-size: 1rem;
+    white-space: nowrap;
+    height: 2.2rem;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 114, 220);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(47, 140, 227);
+}
+#outbtn,#inbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#outbtn img{
+    width: 1.4rem;
+}
+#inbtn img{
+    width: 1.3rem;
+}
+#p1,#p2{
+    margin-bottom: -2.3rem; 
+    margin-left: 19.2%;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+.foot p{
+    margin-bottom: 1rem;
+    cursor: default;
+}
+.foot a{
+    text-decoration: none;
+    color:blue;
+}
+.foot a:hover{
+    color: rgb(74, 168, 255);
+}
